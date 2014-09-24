@@ -1,0 +1,130 @@
+/* Common to all Kim Lew ART web pages 
+ When browser resizes (flow adjusts for Desktop, Tablet and Mobile): 
+  - Resizes from multi to one column 
+  - Large image scales down to fit browser width
+*/
+body {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 90%;
+}
+div#header {
+  display: block;
+  padding: 1% 2%;
+  background-color: #D8D8D8;
+  height: 3%;
+}
+p#logo {
+  display: block;   
+}
+ul#navMenu  { 
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right; 
+}
+ul#navMenu li {
+  display: inline;
+  white-space: nowrap;
+}
+ul#navMenu a {
+  text-decoration: none;
+  color: #000000;
+  padding: 0% 1% 0% 1%;  
+}
+ul#navMenu a:hover {
+  color: #FFFFFF;  
+}
+
+h2#pageTitle {
+  text-align: left;
+  display: block;  
+  padding: 1% 3%;
+  color: #848484;
+}
+div#main {
+  background-color: #FFFFFF;
+  color:#848484;
+  padding: 0% 2%;
+  display: block; 
+  font-size: 90%;
+}
+
+div#image {
+  padding: 0% 1%;
+}
+div#imageDetails {
+  padding: 0% 1%;
+}
+
+div#footer { 
+  background-color: #FFFFFF;
+  padding: 3% 3%;
+  text-align: left;
+  color: #848484; 
+  font-size: 80%;
+}
+/**  For art index pages with thumbnails   **/
+span#imageAndDetails {
+  display: inline-block;
+  padding: 1%;
+  vertical-align: top;
+}
+div#image {
+  display: block; 
+}
+div#imageDetails {
+  display: inline;
+}
+/*  - Large image scales down to fit browser width */
+div#image img {
+  max-width: 98%;
+  height: auto;
+  /*     width: auto\9;  ie8 */
+}
+p#error_msg {
+  color: #D8000C;  
+  /* color: #D8000C; 
+  background-color: #FFBABA;  */ 
+}
+
+/** For view_art.php  **/
+/*  - With hover, thumbnail images change to opaque. */
+span#imageAndDetails img:hover {
+  opacity: 0.5;
+  color: #FFFFFF;
+}
+span#imageAndDetails a:hover {
+  opacity: 0.5;
+  color: #FFFFFF;
+  font-size: 105%;
+}
+span#imageAndDetails a:visited {
+  color: #551A8B;
+}
+
+/** For kimart_bio_and_cv.php  **/
+div.two_columns { 
+ white-space: nowrap;
+}
+div.column {
+ display: inline-block; 
+ width: 47%; 
+ white-space: normal;
+ padding: 1% 1%;
+ vertical-align: top;
+ font-size: 110%;
+}
+div.column img {
+  max-height: 40%;
+  max-width: 40%;     
+}	
+p.links {
+  padding: 0% 1%;
+} 
+
+/** For kimart_contact.php  **/
+p#mail {
+  padding: 0% 1% 1% 1%;
+  font-size: 110%;
+}
