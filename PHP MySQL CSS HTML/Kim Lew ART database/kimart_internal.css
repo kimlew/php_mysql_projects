@@ -1,0 +1,147 @@
+/* INTERNAL CSS for Kim Lew ART entry form.  */
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 100%;
+}
+div#header {
+  display: block;
+  padding: 1% 2%;
+  background-color: #D8D8D8;
+  height: 3%;
+}
+p#logo {
+  display: block;   
+}
+ul#navMenu  { 
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right; 
+}
+ul#navMenu li {
+  display: inline;
+  white-space: nowrap;
+}
+ul#navMenu a {
+  text-decoration: none;
+  color: #000000;
+  padding: 0% 1% 0% 1%;  
+}
+ul#navMenu a:hover {
+  color: #FFFFFF;  
+}
+h3#pageTitle {
+  text-align: left;
+  display: block;  
+  padding: 0% 2%;
+  color: #848484;
+}
+p#instruction {
+  color: #848484;  /* dark grey */
+  font-size: 95%;
+  vertical-align: top;
+}
+p.err_msg {
+  color: #B40404;  /* red */
+  font-size: 95%;
+  text-align: left;
+  vertical-align: bottom;
+  /* border-radius: 6px;  rounded borders */
+  /* background-color: #FFFFDD;  light yellow */
+}
+p.msg_to_user { /* dark green */
+  color: #0B610B;
+  font-size: 95%;
+  text-align: left;
+  vertical-align: bottom;
+  /* border-radius: 6px;  rounded borders */
+  /* background-color: #FFFFDD;  light yellow */
+}
+div#main {
+  display: block; 
+  color: #000000;
+  padding: 0% 2%;
+  font-size: 100%;
+}
+div.row { 
+  display: block;
+  white-space: nowrap;
+  padding: 0px 0px;
+}
+div.field_name_column {
+  display: inline-block;
+  text-align: right;
+  background-color: #FFFFFF ; /* #ECF8E0 = light green */
+  width: 19%;
+  vertical-align: middle;
+}
+div.field_name_comments {
+   display: inline-block;
+   text-align: right;
+   background-color: #FFFFFF; /* #ECF8E0= light green */
+   width: 19%;
+   vertical-align: top;
+ }
+div.input_column { 
+   display: inline-block;
+   text-align: left;
+   background-color: #FFFFFF; /* #FBF5EF= light pink */
+   width: 77%;
+}
+
+/* ONLY for kimart_internal_search_art.php */
+div.two_columns { 
+ white-space: nowrap;
+}
+div.column1 {
+ display: inline-block; 
+ width: 50%; 
+ white-space: normal;
+ vertical-align: top;
+ font-size: 110%;
+}
+div.column2 {
+ display: inline-block; 
+ width: 50%; 
+ white-space: normal;
+ vertical-align: top;
+ font-size: 110%;
+}
+p.search_field {
+  display: inline-block;
+  text-align: left;
+  padding: 1%;
+  background-color: #F2F2F2; /* light grey */
+  border: 2px solid;
+  border-color: #F2F2F2;
+  border-radius: 5px;
+}
+
+p.links { 
+  display: block;
+  text-align: left;
+}
+
+div#footer { 
+  background-color: #FFFFFF;
+  padding: 3% 2%;
+  text-align: left;
+  color: #848484; 
+  font-size: 80%;
+}
+
+a:link {
+  color: #2A5DB0;
+  padding: 0% 1% 0% 1%;  
+}
+a:hover {
+  color: #ff00ff;  
+}
+a:active { 
+  color: #ff00ff; 
+} 
+a:visited {
+  color: #551A8B;
+}
