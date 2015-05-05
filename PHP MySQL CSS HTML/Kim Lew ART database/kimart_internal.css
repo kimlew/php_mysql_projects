@@ -74,24 +74,28 @@ div.field_name_column {
   display: inline-block;
   text-align: right;
   background-color: #FFFFFF ; /* #ECF8E0 = light green */
-  width: 19%;
+  width: 21%;
   vertical-align: middle;
 }
 div.field_name_comments {
    display: inline-block;
    text-align: right;
    background-color: #FFFFFF; /* #ECF8E0= light green */
-   width: 19%;
+   width: 21%;
    vertical-align: top;
  }
 div.input_column { 
    display: inline-block;
    text-align: left;
    background-color: #FFFFFF; /* #FBF5EF= light pink */
-   width: 77%;
+   width: 75%;
 }
 
-/* ONLY for kimart_internal_search_art.php */
+/* ONLY for:
+ kimart_internal_index.php,
+ kimart_internal_search_art.php AND
+ kimart_internal_search_user.php
+*/
 div.two_columns { 
  white-space: nowrap;
 }
@@ -105,6 +109,20 @@ div.column1 {
 div.column2 {
  display: inline-block; 
  width: 50%; 
+ white-space: normal;
+ vertical-align: top;
+ font-size: 110%;
+}
+div.column75 {
+ display: inline-block; 
+ width: 75%; 
+ white-space: normal;
+ vertical-align: top;
+ font-size: 110%;
+}
+div.column25 {
+ display: inline-block; 
+ width: 25%; 
  white-space: normal;
  vertical-align: top;
  font-size: 110%;
