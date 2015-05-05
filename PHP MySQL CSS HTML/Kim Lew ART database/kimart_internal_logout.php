@@ -1,5 +1,5 @@
 <?php
-  // Log out and end session.
+// Log out and end session.
   $page_title = "Log Out";
   include('kimart_internal_header.inc.php');
   include('kimart_internal_common_functions.inc.php');
