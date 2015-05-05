@@ -4,7 +4,7 @@ PHP, MySQL, HTML5, CSS
 The code samples under kimart_internal_database are for maintaining the database. This includes:
 - adding, editing and deleting art
 - adding, editing and deleting users and enforcing user permissions
-- logginG in and logginG out
+- logging in and logging out
 - search for art and search for user
 -  relational tables design (item table, price table and user table) with considerations of data integrity 
 and normalization
