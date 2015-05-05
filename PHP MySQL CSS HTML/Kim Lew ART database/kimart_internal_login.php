@@ -1,6 +1,7 @@
 <?php
+// Log in and go to Search page.
   $page_title = "Log In";
-  include("kimart_internal_header.inc.php");
+  include('kimart_internal_header.inc.php');
   require_once('kimart_connect_vars.inc.php');
   include('kimart_internal_common_functions.inc.php');
   include('kimart_internal_validation.inc.php');
@@ -59,7 +60,7 @@
             $session_user_name = $_SESSION['user_name'];
   
             // Redirect user to kimart_internal_search_art.php.
-            header("Location: kimart_internal_search_art.php");
+            header("Location: kimart_internal_search.php");
           } 
           else {
             $err_msg = 'Password is NOT correct for this user. Try again.';
