@@ -1,5 +1,5 @@
 <?php
-/* For database on LIVE host. 
+/* For database on LIVE host.
    INCLUDE file for Database Connection variables/constants to connect to:
    - require_once('kimart_connect_vars.php'); 
 */
