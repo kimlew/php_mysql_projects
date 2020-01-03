@@ -3,9 +3,8 @@
 ?>
 
   <div id = "footer">
-    Copyright &#169; Kim Lew Art 2019
+    Copyright &#169; Kim Lew Art 2020
   </div>
-  
+
 </body>
 </html>
-
