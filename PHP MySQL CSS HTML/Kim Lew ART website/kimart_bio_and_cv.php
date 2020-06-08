@@ -40,7 +40,7 @@
         I am a late-bloomer to art making but don't consider myself a neophyte any more.
         Unlikely combinations of colours and meandering lines still dumbfound me which
         makes creating visual art captivating and challenging for me. My goal is to continue
-        making playful and sincere work.  <a href="images/CV_2013_Kim_Lew.pdf">  CV  </a>
+        making playful and sincere work.  <a href="images/CV_2015_Kim_Lew.pdf">  CV  </a>
 
         <h3> 2011 Show - Out There </h3>
         <p><img src="images/2011_Splash.jpg" alt="Splash, 2011"></p>
