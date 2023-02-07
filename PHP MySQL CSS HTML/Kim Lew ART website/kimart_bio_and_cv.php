@@ -7,7 +7,7 @@
   <div id = "main">
     <div class = "two_columns">
       <div class = "column">
-        Prior to the last couple of years in Seattle, Washington, USA, I lived my entire
+        Prior to a few years in Seattle, Washington, USA, I lived my entire
         existence in Alberta, Canada. I graduated from the University of Alberta with
         a Bachelor of Fine Arts in 2010 but had a previous life and a previous degree
         in Sociology and Psychology. I paint in acrylic, oil and watercolour.
