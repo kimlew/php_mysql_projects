@@ -14,7 +14,7 @@
 		
     // echo "<br>Database connection error: ". mysqli_error($dbc) . "<br>";
 		
-    $kimart_id = $_GET[kimart_id]; 	
+    $kimart_id = $_GET['kimart_id'];
 	
     $command = "SELECT kimart_title, kimart_year, kimart_medium, kimart_height, kimart_width, kimart_image
 	    FROM kimart_tb 
