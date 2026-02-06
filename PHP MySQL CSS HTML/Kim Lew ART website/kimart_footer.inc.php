@@ -3,7 +3,7 @@
 ?>
 
   <div id = "footer">
-    Copyright &#169; Kim Lew Art 2025
+    <footer>Copyright &copy; <?php echo date("Y"); ?> Kim Lew Art </footer>
   </div>
 
 </body>
